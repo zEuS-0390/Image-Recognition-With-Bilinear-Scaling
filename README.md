@@ -15,6 +15,12 @@ Dependencies:
 State-of-the-Art Object Detection Algorithm: 
 - AlexeyAB's Darknet YOLOv3: https://github.com/AlexeyAB/darknet
 
+GPU Used:
+- Google colab's free Tesla T4 and K80
+
+Model Training:
+- The model was trained in Google colab using darknet and compiled OpenCV with CUDA support
+
 Download Model File: https://drive.google.com/drive/folders/1-43Jx55K6gSR6jJgCm7Zd1rmRtUrO0kj?usp=sharing
 
 ### Instructions:
