@@ -1,0 +1,8 @@
+# virtualenv
+recyclable_env/
+
+# test and compare output images
+*.png
+
+# model file due to its large size
+req/*.weights
