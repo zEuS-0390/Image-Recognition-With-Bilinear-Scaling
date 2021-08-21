@@ -22,14 +22,20 @@ Download Model File: https://drive.google.com/drive/folders/1-43Jx55K6gSR6jJgCm7
 2. To see the available arguments in the program, follow this command:
 ```
 python main.py --help
+or
+python main.py -h
 ```
 2. To test and compare the performance of the trained model from images input with and without bilinear scaling, follow this command to generate a single output image:
   ```
   python main.py --testimages "<absolute_path_of_images_folder>"
+  or
+  python main.py -test "<absolute_path_of_images_folder>"
   ```
 3. To detect and save images without bilinear scaling, follow this command:
   ```
   python main.py --imagesinput "<absolute_path_of_images_folder>"
+  or
+  python main.py -imgsin "<absolute_path_of_images_folder>"
   ```
 4. You can change the configurations of the program by changing the settings in config.ini
   ```
