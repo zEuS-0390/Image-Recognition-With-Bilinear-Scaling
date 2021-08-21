@@ -23,7 +23,7 @@ Download Model File: https://drive.google.com/drive/folders/1-43Jx55K6gSR6jJgCm7
 ```
 python main.py --help
 ```
-2. To test and compare the performance of the trained model from images input with and without bilinear scaling, follow this command:
+2. To test and compare the performance of the trained model from images input with and without bilinear scaling, follow this command to generate a single output image:
   ```
   python main.py --testimages "<absolute_path_of_images_folder>"
   ```
