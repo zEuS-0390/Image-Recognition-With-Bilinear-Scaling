@@ -38,9 +38,9 @@ class ImagesInput(Detection):
             detected[os.path.basename(image_file_path)] = size
             if save:
                 image = self.drawDetected(image, detected_objects)
+                check = "detected objects" if size > 1 else "detected object"
                 if size > 0:
                     cv2.imwrite(os.path.join(newDir, os.path.basename(image_file_path)), image)
-                    check = "detected objects" if size > 1 else "detected object"
                     print(f"[SAVED][{size} {check}]: {os.path.basename(image_file_path)} {size} ({current_no}/{total} images) {round(current_no/total*100, 3)}% ")
                 else:
                     print(f"[NOT SAVED][{size} {check}]: {os.path.basename(image_file_path)} ({current_no}/{total} images) {round(current_no/total*100, 3)}%")
